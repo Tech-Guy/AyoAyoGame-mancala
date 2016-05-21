@@ -5,7 +5,9 @@ This project is a simple mancala game written in JavaFx. I wrote this project ba
 
 Your are free to use the code or build upon it, all I ask is that you at least give attribution to the author [ my humble self :) ]
 
-<h3>About The Game:</h3>
+
+
+<h3>About The Game [How To Play It]:</h3>
 
 Ayoayo is a Nigerian mancala game which is played by the Yoruba ethic group in Nigeria. It should not be confused with Oware, which is also sometimes called "Ayoayo".
 
