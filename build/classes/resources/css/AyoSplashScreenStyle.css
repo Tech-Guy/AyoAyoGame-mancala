@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2015, 6:03:39 PM
+    Author     : Odigie Oseme Utibe | osemeodigie@yahoo.com | http://osemeodigie.com
+*/
+
+.root {
+    -fx-background-image: url("../images/splash_screen.png");
+    -fx-background-position: top left; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+#loading-status-text{
+    -fx-font-size: 20px;
+    -fx-padding: 20 0 0 0;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.9) ,0,0,0,1 );
+}

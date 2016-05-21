@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2015, 1:51:09 PM
+    Author     : Odigie Oseme Utibe | osemeodigie@yahoo.com | http://osemeodigie.com
+*/
+
+.root {
+    /* -fx-background-image: url("background.jpg"); */
+}
+
+.main-game-board-window{
+    -fx-background-image: url("../images/menu_center_background.jpg");
+    -fx-background-position: top left; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.player-names{
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Helvetica";
+    -fx-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.player-type-box{
+    -fx-border-style: solid;
+    -fx-border-width: 5;
+    -fx-border-color: black;
+}
+
+.active-player-highlight{
+    -fx-opacity: 0.5;
+    -fx-fill: #ffff0000;
+}
+
+.active-player-highlight .Text{
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Helvetica";
+    -fx-fill: #ff0000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.player-name-label{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Helvetica";
+    -fx-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );     
+}
+
+.player-houses{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Helvetica";
+    -fx-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );     
+}
+
+.player-seed-hand-box{
+    -fx-font-family: "Helvetica";
+    -fx-fill: #ffffff;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 20,0,0,1 );
+    -fx-background-image: url("../images/seed_in_hand_bg.png");
+    -fx-background-position: top left; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.player-seed-hand-label{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );    
+}
+
+#player-seed-hand-amount{
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );    
+}
+
+.player-captured-box{
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-background-image: url("../images/player_scores.jpg");
+    -fx-background-position: top left; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.player-captured-label{
+    
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #800080;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#player-1-captured{
+    
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#player-2-captured{
+    
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.game-board{
+  /*  -fx-background-color: palegreen; */
+    -fx-padding: 2 2 2 12;
+    -fx-hgap: 16;
+    -fx-vgap:2;
+    -fx-background-image: url("../images/AyoBoardGrid_bigger.png");
+    -fx-background-position: top left; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:contain;
+}
+
+.grid-canvas-box{
+    -fx-alignment: center;
+}
+
+#bottom-status-bar{
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
